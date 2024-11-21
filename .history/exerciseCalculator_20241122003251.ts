@@ -45,5 +45,6 @@ const calculateExercises = ( target: number, dailyHours: number[]): ExcerciseRes
     }
    }
 
+// console.log(calculateExercises(2, [3, 0, 2, 4.5, 0, 3, 1]))   
 console.log(calculateExercises(2, [1, 0, 2, 4.5, 0, 3, 1, 0, 4]))   
 
