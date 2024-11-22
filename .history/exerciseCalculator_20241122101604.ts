@@ -1,6 +1,10 @@
 // 9.2 Exercise calculator
 import { calculateBmi, height, weight } from "./bmiCalculator"
 
+
+
+
+console.log(`Person with height: ${height}cm and weight: ${weight}kg:`, calculateBmi(height, weight));
 interface ExcerciseResult {
     periodLength: number,
     trainingDays: number,

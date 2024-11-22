@@ -1,5 +1,5 @@
 // 9.2 Exercise calculator
-import { calculateBmi, height, weight } from "./bmiCalculator"
+import { calculateBmi } from "./bmiCalculator"
 
 interface ExcerciseResult {
     periodLength: number,
@@ -59,3 +59,10 @@ if (dailyHours.some(isNaN) || isNaN(target)) {
 console.log(calculateExercises(target, dailyHours));
 
 
+console.log(calculateBmi(180, 91))
+const height = Number(process.argv[2]);
+const weight = Number(process.argv[3]);
+
+console.log(height, weight);
+
+console.log(calculateBmi(height, weight));

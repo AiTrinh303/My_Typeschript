@@ -59,3 +59,6 @@ if (dailyHours.some(isNaN) || isNaN(target)) {
 console.log(calculateExercises(target, dailyHours));
 
 
+
+
+console.log(`Person with height: ${height}cm and weight: ${weight}kg:`, calculateBmi(height, weight));

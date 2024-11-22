@@ -1,6 +1,8 @@
 // 9.2 Exercise calculator
 import { calculateBmi, height, weight } from "./bmiCalculator"
 
+
+
 interface ExcerciseResult {
     periodLength: number,
     trainingDays: number,
